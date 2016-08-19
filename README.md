@@ -3,6 +3,7 @@ Library to realize the zabbix-sender on ESP8266-Arduino
 
 # How to install library to Arduino IDE
 ## Use git command
+(Windows and default arduino setting)
     cd %USERPROFILE%\Documents\Arduino\libraries
     git clone https://github.com/erscl/ESP8266ZabbixSender.git
 ## Use ZIP import function of the Arduino IDE
@@ -17,5 +18,5 @@ Google it
     if (zSender.Send() == EXIT_FAILURE){ // send packet
         // error handling
     }
-Refer to the following repository for more information.
+Refer to the following repository for more information.  
 https://github.com/erscl/esp8266_zabbixtemp
