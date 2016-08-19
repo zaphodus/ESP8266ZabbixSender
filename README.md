@@ -3,7 +3,8 @@ Library to realize the zabbix-sender on ESP8266-Arduino
 
 # How to install library to Arduino IDE
 ## Use git command
-(Windows and default arduino setting)  
+(Windows and default arduino setting)
+
     cd %USERPROFILE%\Documents\Arduino\libraries
     git clone https://github.com/erscl/ESP8266ZabbixSender.git
 ## Use ZIP import function of the Arduino IDE
