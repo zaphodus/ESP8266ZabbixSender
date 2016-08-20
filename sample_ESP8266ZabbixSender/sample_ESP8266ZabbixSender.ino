@@ -25,8 +25,8 @@ void setup() {
 }
 
 void loop() {
-	static int counter1 = 0;
-	static int counter2 = 0;
+	static int counter1 = 1;
+	static int counter2 = 1;
 	checkConnection();							  // Check wifi connection
 	zSender.ClearItem();						  // Clear ZabbixSender's item list
 	zSender.AddItem("counter1", (float)counter1); // Exmaple value of zabbix trapper item
@@ -37,7 +37,7 @@ void loop() {
 		Serial.println("ZABBIX SEND: NG");
 	}
 	counter1 += 1;
-	counter1 *= 2;
+	counter2 *= 2;
 	delay(1000); // wait 1sec
 }
 
