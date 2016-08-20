@@ -12,6 +12,7 @@ Google it
 
 # Usage
 See `sample_ESP8266ZabbixSender/sample_ESP8266ZabbixSender.ino`
+
     ESP8266ZabbixSender zSender;
     zSender.Init(IPAddress(192, 168, 35, 14), 10051, "IOTBOARD_00"); // Init zabbix server address, port, and hostname of item
     zSender.ClearItem(); // clear item list
