@@ -1,7 +1,7 @@
 # ESP8266ZabbixSender
 Library to realize the zabbix-sender on ESP8266-Arduino
 
-# How to install library to Arduino IDE
+# How to install this library to Arduino IDE
 ## Use git command
 (Windows and default arduino setting)
 
